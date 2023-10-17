@@ -1,0 +1,62 @@
+body {
+    background-image: url(/res/obrazky/hřiště.jpg)  ;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-size: 100%;
+  }
+  
+  header {
+    background-color: #ffcc00;
+    padding: 10px;
+  }
+  
+  #mic{
+    width: 20%;
+ 
+  }
+  #mic:hover{
+    transform: scale(1.1);
+  }
+  
+  
+  button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  button:hover {
+    background-color: #6bff16;
+    color: #000000;
+    transform: scale(1.1);
+  }
+  
+  p {
+    color: #333;
+    font-size: 40px;
+  }
+  
+  #upgradeButton {
+    background-color: #4eff3e;
+    color: #000000;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #upgradeButton:hover {
+    background-color: #59ff27;
+  }
+  #upgrade{
+    background-color: #ffcc00;
+  }
+  #auto{
+    background-color: gray;
+  }
